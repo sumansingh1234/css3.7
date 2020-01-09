@@ -12,7 +12,7 @@ public static void main(String[] args) {
      driver.findElement(By.name("submit")).submit();
      Alert alert = driver.switchTo().alert();
      String alertMessage= driver.switchTo().alert().getText();
-     System.out.println(alertMessage);	  
+     System.out.println(alertMessage);	      
      try {
 		Thread.sleep(5000);
 	} catch (InterruptedException e) {
