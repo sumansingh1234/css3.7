@@ -1,12 +1,10 @@
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class Titleverification {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		System.out.println("world");
 	}
 
 }
