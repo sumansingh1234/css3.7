@@ -9,7 +9,6 @@ public static void main(String[] args) throws InterruptedException {
 	
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://www.spicejet.com");
-	driver.findElement(By.xpath(xpathExpression));
-	hdhh         
+	driver.findElement(By.xpath(xpathExpression));    
 }
 }
